@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("https://secure-media.hotstarext.com/web-assets/prod/roboto-bold.woff2");
+}
+
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("https://secure-media.hotstarext.com/web-assets/prod/roboto-medium.woff2");
+}
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("https://secure-media.hotstarext.com/web-assets/prod/roboto-regular.woff2");
+}
+
+html,
+body {
+  font-size: 10px;
+  font-family: "Roboto Regular", sans-serif;
+  margin: 0;
+}
+
+/* Reusable styles */
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  display: block;
+}
+
+.font-16-400 {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.font-12-700-24 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 24px;
+}
+
+.td-none {
+  text-decoration: none;
+}
+
+.pad-20-15 {
+  padding: 20px 15px;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.just-center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.bg-col-1 {
+  background-color: #141a28;
+}
+
+.txt-col-1 {
+  color: #bfc0c4;
+}
+
+/*  */
+.header-wrap {
+  padding: 0 60px;
+}
+
+.header-row {
+  margin: 6px 0;
+}
+.logo {
+  height: 45px;
+  width: 115px;
+}
+
+.kids-logo {
+  height: 15px;
+  width: 45px;
+}
+
+.search-wrap:focus,
+.search-wrap:active {
+  border-bottom: 2px solid #bfc0c4;
+}
+
+.search {
+  outline: none;
+  border: none;
+}
+
+.search::placeholder {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.search-icon {
+  height: 15px;
+  width: 16px;
+}
