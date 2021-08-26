@@ -13,6 +13,14 @@
   src: url("https://secure-media.hotstarext.com/web-assets/prod/roboto-regular.woff2");
 }
 
+.roboto-bold {
+  font-family: "Roboto Heavy", sans-serif;
+}
+
+.roboto-med {
+  font-family: "Roboto Medium", sans-serif;
+}
+
 html,
 body {
   font-size: 10px;
@@ -60,20 +68,41 @@ body {
   display: block;
 }
 
-.font-16-400 {
-  font-weight: 400;
-  font-size: 1.6rem;
-}
-
-.font-16-700 {
-  font-weight: 700;
-  font-size: 1.6rem;
+.font-10-500-15 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
 }
 
 .font-12-700-24 {
   font-weight: 700;
   font-size: 1.2rem;
-  line-height: 24px;
+  line-height: 2.4rem;
+}
+
+.font-16-400 {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.font-16-500 {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.font-16-700 {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.font-20-500-29 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.9rem;
+}
+.font-28-500-1 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .td-none {
@@ -98,6 +127,10 @@ body {
 
 .bg-col-1 {
   background-color: #141a28;
+}
+
+.bg-col-4 {
+  background-color: val(BG_COLOR_L4);
 }
 
 .txt-color-1 {
@@ -164,9 +197,20 @@ body {
 }
 
 .sub-button {
-  font-family: "Roboto heavy";
   padding: 0 12px;
   background-color: var(--BRAND_BLUE);
   border-radius: 3px;
   border: none;
+}
+
+/* Main container */
+.carousel-container {
+  margin: 0 10px;
+  border-radius: 5px;
+  width: calc(100% - 150px);
+  height: auto;
+}
+
+.carousel-text {
+  width: 50%;
 }
