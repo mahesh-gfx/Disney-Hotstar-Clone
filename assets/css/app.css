@@ -18,6 +18,30 @@ body {
   font-size: 10px;
   font-family: "Roboto Regular", sans-serif;
   margin: 0;
+
+  --BRAND_BLUE: #1f80e0;
+  --BRAND_RED: #f15151;
+  --BRAND_ORANGE: #db882a;
+  --BG_GRADIENT_L0: linear-gradient(to bottom, #141b29, #0c111b 300px);
+  --BG_GRADIENT_L1: linear-gradient(to bottom, #192133, #111826);
+  --BG_GRADIENT_L2: linear-gradient(to bottom, #334366, #334366, #1c2940);
+  --CARD_GRADIENT: #030b17;
+  --HEADER_COLOR: #121926;
+  --BG_COLOR_L0: #0c111b;
+  --BG_COLOR_L1: #192133;
+  --BG_COLOR_L2: #334366;
+  --BG_COLOR_L3: rgba(144, 153, 153, 0.1);
+  --BG_COLOR_L4: #1b1f20;
+  --BORDER_COLOR_L0: #2e3333;
+  --TEXT_COLOR_L0: #fff;
+  --TEXT_COLOR_L1: rgba(255, 255, 255, 0.8);
+  --TEXT_COLOR_L2: rgba(255, 255, 255, 0.6);
+  --TEXT_COLOR_L3: #dadada;
+  --TEXT_COLOR_L4: #909999;
+  --TEXT_COLOR_L5: #f9f9f9;
+  --TEXT_LINK_COLOR: #1f80e0;
+  --TEXT_BTN_COLOR: #1f80e0;
+  background: var(--BG_GRADIENT_L0);
 }
 
 /* Reusable styles */
@@ -41,9 +65,14 @@ body {
   font-size: 1.6rem;
 }
 
-.font-12-700-24 {
+.font-16-700 {
   font-weight: 700;
   font-size: 1.6rem;
+}
+
+.font-12-700-24 {
+  font-weight: 700;
+  font-size: 1.2rem;
   line-height: 24px;
 }
 
@@ -71,17 +100,22 @@ body {
   background-color: #141a28;
 }
 
-.txt-col-1 {
-  color: #bfc0c4;
+.txt-color-1 {
+  color: var(--TEXT_COLOR_L3);
+}
+
+.txt-color-2 {
+  color: white;
 }
 
 /*  */
 .header-wrap {
   padding: 0 60px;
+  background: var(--BG_GRADIENT_L0);
 }
 
-.header-row {
-  margin: 6px 0;
+.header {
+  padding: 6px 0;
 }
 .logo {
   height: 45px;
@@ -92,23 +126,47 @@ body {
   height: 15px;
   width: 45px;
 }
+/* .search-label {
+  box-sizing: border-box;
+} */
 
-.search-wrap:focus,
-.search-wrap:active {
-  border-bottom: 2px solid #bfc0c4;
+.search:focus,
+.search:active {
+  border-bottom: 1px solid var(--BRAND_BLUE);
+  width: 350px;
+  transition: ease-out 0.1s;
 }
 
 .search {
   outline: none;
   border: none;
+  height: 32px;
+  width: 240px;
+  border-bottom: 1px solid var(--TEXT_COLOR_L2);
+  position: relative;
+  padding: 0 20px 0 0;
+}
+
+.search-icon {
+  position: relative;
+  right: 16px;
 }
 
 .search::placeholder {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.6rem;
+  color: var(--TEXT_COLOR_L1);
 }
 
 .search-icon {
   height: 15px;
   width: 16px;
+}
+
+.sub-button {
+  font-family: "Roboto heavy";
+  padding: 0 12px;
+  background-color: var(--BRAND_BLUE);
+  border-radius: 3px;
+  border: none;
 }
