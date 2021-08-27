@@ -68,6 +68,10 @@ body {
   display: block;
 }
 
+.pos-fixed {
+  position: fixed;
+}
+
 .font-10-500-15 {
   font-size: 1rem;
   font-weight: 500;
@@ -78,6 +82,15 @@ body {
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 2.4rem;
+}
+
+.font-12-400 {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.font-14-400 {
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 
 .font-16-400 {
@@ -130,7 +143,7 @@ body {
 }
 
 .bg-col-4 {
-  background-color: val(BG_COLOR_L4);
+  background-color: var(--CARD_GRADIENT);
 }
 
 .txt-color-1 {
@@ -143,13 +156,39 @@ body {
 
 /*  */
 .header-wrap {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: auto;
   padding: 0 60px;
   background: var(--BG_GRADIENT_L0);
+  box-sizing: border-box;
+  margin: 0;
 }
 
 .header {
+  width: 100%;
   padding: 6px 0;
 }
+
+.btn-hamburger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.line {
+  width: 18px;
+  height: 2px;
+  background: var(--TEXT_COLOR_L2);
+  display: block;
+  margin-top: 3px;
+}
+
 .logo {
   height: 45px;
   width: 115px;
@@ -158,6 +197,10 @@ body {
 .kids-logo {
   height: 15px;
   width: 45px;
+}
+
+.main-container {
+  padding: 70px 0 0;
 }
 /* .search-label {
   box-sizing: border-box;
@@ -192,7 +235,7 @@ body {
 }
 
 .search-icon {
-  height: 15px;
+  height: 12px;
   width: 16px;
 }
 
@@ -203,14 +246,95 @@ body {
   border: none;
 }
 
+.carousel-wrap {
+  width: 100%;
+  margin: 15px 0 0;
+}
+
 /* Main container */
 .carousel-container {
   margin: 0 10px;
   border-radius: 5px;
   width: calc(100% - 150px);
   height: auto;
+  overflow: auto;
 }
 
 .carousel-text {
   width: 50%;
+  padding: 100px 50px 50px;
+}
+
+.carousel-image {
+  height: 100%;
+  width: auto;
+}
+/* cards */
+.tray-wrap {
+  padding: 50px 0 0;
+}
+
+.tray-row {
+  width: calc(100% - 150px);
+  height: auto;
+}
+
+.category-title {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  font-weight: 500;
+}
+
+.slider {
+  padding: 16px 0;
+}
+
+.card {
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 150px;
+  height: 200px;
+  box-sizing: border-box;
+  position: relative;
+  margin-right: 12px;
+  position: relative;
+}
+
+.card-text {
+  position: absolute;
+}
+
+.card-thumbnail {
+  position: absolute;
+}
+
+.thumb {
+  width: 150px;
+  height: auto;
+}
+
+/* Footer */
+
+.footer-wrap {
+  padding: 34px;
+  max-width: calc(100vw - 105px);
+}
+
+.footer-left {
+  width: 58%;
+}
+
+.footer-links a {
+  padding: 0 20px 0 0;
+}
+
+.copyright {
+  padding-top: 11px;
+  padding-right: 15%;
+}
+
+.footer-right {
+  width: 41%;
+  max-width: 540px;
+  float: right;
 }

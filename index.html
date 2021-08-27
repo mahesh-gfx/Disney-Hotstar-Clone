@@ -10,12 +10,20 @@
 </head>
 
 <body>
-  <div class="header-wrap block">
+  <div class="header-wrap row bg-col-1">
     <div class="header row align-center space-between">
       <div class="nav-container row">
 
         <div class="nav-buttons row font-16-400 align-center">
-          <div class="kebab-menu pad-20-15 txt-col-1">-</div>
+          <div class="kebab-menu pad-20-15 txt-col-1">
+            <div class="btn-hamburger" id="btn-hamburger">
+              <div class="icon-wrapper">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+            </div>
+          </div>
           <div class="logo"><a href="" class="logo txt-color-1"><svg xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 115 35">
                 <defs>
@@ -98,25 +106,29 @@
     </div>
   </div>
   <div class="main-container">
-    <div class="carousel-wrap just-center col">
-      <div class="carousel-container bg-col-4">
-        <div class="carousel-text col">
-          <div class="content-title txt-color-2 roboto-med font-28-500-1">
-            Bhuj: The Pride of India
-          </div>
-          <div class="content-meta txt-color-1 row font-16-500">
-            <!-- <div class="content-time"></div> &#8226; -->
-            <div class="release-year">2021</div> &#8226;
-            <div class="genre">Action</div>
-            <!-- &#8226;
+    <div class="carousel-wrap just-center align-center col">
+      <div class="carousel-container bg-col-4 row">
+        <div class="carousel-text space-between col">
+          <div>
+            <div class="content-title txt-color-2 roboto-med font-28-500-1">
+              Bhuj: The Pride of India
+            </div>
+            <div class="content-meta txt-color-1 row font-16-500">
+              <!-- <div class="content-time"></div> &#8226; -->
+              <div class="release-year">2021</div> &#8226;
+              <div class="genre">Action</div>
+              <!-- &#8226;
             <div class="content-rating"></div> &#8226;
             <div class="content-lang"></div> -->
+            </div>
+            <div class="content-description font-16-400 txt-color-1">
+              Running against the clock, IAF Squadron Leader Vijay Karnik created history with determination and his
+              love
+              for the country. A daredevil story of guts and glory.
+            </div>
           </div>
-          <div class="content-description font-16-400 txt-color-1">
-            Running against the clock, IAF Squadron Leader Vijay Karnik created history with determination and his love
-            for the country. A daredevil story of guts and glory.
-          </div>
-          <div class="actions">
+
+          <div class="actions row">
             <div class="watch txt-color-1 roboto-med font-20-500-29">
               <span>Watch Movie</span>
             </div>
@@ -131,61 +143,83 @@
           </div>
         </div>
         <div class="carousel-image">
-          <div class="content-image"></div>
+          <img src="assets\jpg\carousel-1.jpg" class="carousel-image" alt="Bhuj: The Pride of India">
         </div>
       </div>
-      <div class="lang-available row">
+      <!-- <div class="lang-available row">
         <span>Available in:</span>
         <div class="lang-list row">
           <a href="" class="td-none txt-color-1">Hindi</a>
           <a href="" class="td-none txt-color-1">Tamil</a>
           <a href="" class="td-none txt-color-1">Telugu</a>
         </div>
-      </div>
+      </div> -->
     </div>
 
-    <div class="suggestions-wrap">
-      <div class="latest-trending">
-        <div class="latest-trend-content-wrap">
-          <div class="latest-trend-card col">
-            <div class="card-title"></div>
-            <div class="card-meta row"></div>
-            <div class="card-description overflow-hidden"></div>
-            <div class="card-actions col">
-              <div class="c-watch-movie"></div>
-              <div class="c-add-to-watch"></div>
-            </div>
+    <div class="tray-wrap col">
+      <div class="trays row just-center">
+        <div class="latest-trend-content-wrap tray-row col just-center">
+          <div class="category-title roboto-med txt-color-1">
+            <span>Latest & Trending</span>
           </div>
+          <div class="slider row">
+            <div class="card latest-trend col">
+              <div class="card-text">
+                <div class="card-title">Cruella</div>
+                <div class="card-meta">
+                  2 hr 13 min, Crime, Comedy, English, Hindi, Tamil, Telugu, 2021
+                </div>
+                <div class="card-description overflow-hidden">
+                  This film is about the rebellious early days of one of cinemas...
+                </div>
+                <div class="card-actions col">
+                  <div class="c-watch-movie">
+                    <a href="">Watch Movie</a>
+                  </div>
+                  <div class="c-add-to-watch">
+                    <a href="">Add to Watchlist</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-thumbnail">
+                <img src="assets\webp\latest-1.webp" class="thumb" alt="">
+              </div>
+            </div>
+
+          </div>
+
         </div>
       </div>
     </div>
   </div>
   <div class="footer-wrap">
-    <div class="footer space-between">
+    <div class="footer space-between row">
       <div class="footer-left col">
-        <div class="footer-links row">
-          <a href="" class="td-none txt-color-1">About Disney+ Hotstar</a>
+        <div class="footer-links font-14-400 row">
+          <a href="" class="td-none txt-color-1 ">About Disney+ Hotstar</a>
           <a href="" class="td-none txt-color-1">Terms of Use</a>
           <a href="" class="td-none txt-color-1">Privacy Policy</a>
           <a href="" class="td-none txt-color-1">FAQ</a>
-          <a href="" class="td-none txt-color-1">feedback</a>
+          <a href="" class="td-none txt-color-1">Feedback</a>
           <a href="" class="td-none txt-color-1">Careers</a>
         </div>
-        <div class="copyright txt-color-1">
+        <div class="copyright font-12-400 txt-color-1">
           © 2021 STAR. All Rights Reserved. HBO, Home Box Office and all related channel and programming logos are
           service marks of, and all related programming visuals and elements are the property of, Home Box Office, Inc.
           All rights reserved.
         </div>
       </div>
-      <div class="footer-right col space-between row">
-        <div class="connect col txt-color-1">
-          <span>Connect with us</span>
+      <div class="footer-right col row space-between ">
+        <div class="connect col font-14-400 txt-color-1">
+          <span class="row">Connect with us</span>
           <div class="socials row ">
             <a class="fb" href=""></a>
             <a class="twitter" href=""></a>
           </div>
         </div>
-        <div class="app-downl txt-color-1">
+        <div class="app-downl col font-14-400 txt-color-1">
+          <span class="row">Disney+ Hotstar App</span>
           <div class="download-kinks">
 
           </div>
