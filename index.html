@@ -13,17 +13,24 @@
   <div class="header-wrap row bg-col-1">
     <div class="header row align-center space-between">
       <div class="nav-container row">
-
         <div class="nav-buttons row font-16-400 align-center">
-          <div class="kebab-menu pad-20-15 txt-col-1">
-            <div class="btn-hamburger" id="btn-hamburger">
-              <div class="icon-wrapper">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
+          <div class="drop-down">
+            <div class="kebab-menu drop pad-20-15 txt-col-1">
+              <div class="btn-hamburger" id="btn-hamburger">
+                <div class="icon-wrapper">
+                  <span class="line"></span>
+                  <span class="line"></span>
+                  <span class="line"></span>
+                </div>
+              </div>
+              <div class="dropdown-content">
+                <a href="#">Channels</a>
+                <a href="#">Languages</a>
+                <a href="#">Genres</a>
               </div>
             </div>
           </div>
+
           <div class="logo"><a href="" class="logo txt-color-1"><svg xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 115 35">
                 <defs>
@@ -57,13 +64,28 @@
                 </g>
               </svg>
             </a></div>
+          <div class="drop-down">
+            <a href="" class="drop menu td-none pad-20-15 txt-color-1">TV</a>
+            <div class="dropdown-content">
+              <a href="#">Hotstar Specials</a>
+              <a href="#">Quix</a>
+              <a href="#">Star Jalsha</a>
+              <a href="#">Star Plus</a>
+              <a href="#">Star Vijay</a>
+              <a href="#">Star Bharat</a>
+              <a href="#">Asianet</a>
+              <a href="#">Star Maa</a>
+              <a href="#">more...</a>
+            </div>
+          </div>
 
+          <div class="drop-down">
+            <a href="" class="td-none menu pad-20-15 txt-color-1"> Movies</a>
+          </div>
 
-          <a href="" class="td-none pad-20-15 txt-color-1">TV</a>
-          <a href="" class="td-none pad-20-15 txt-color-1"> Movies</a>
-          <a href="" class="td-none pad-20-15 txt-color-1">Sports</a>
-          <a href="" class="td-none pad-20-15 txt-color-1">Premium </a>
-          <a href="" class="td-none pad-20-15 txt-color-1">Disney+</a>
+          <a href="" class="menu td-none pad-20-15 txt-color-1">Sports</a>
+          <a href="" class="menu td-none pad-20-15 txt-color-1">Premium </a>
+          <a href="" class="menu td-none pad-20-15 txt-color-1">Disney+</a>
           <a href="" class="kids-logo pad-20-15 txt-color-1"><svg xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 40 15">
               <path fill="#FFAA05" fill-rule="evenodd"
@@ -143,7 +165,7 @@
           </div>
         </div>
         <div class="carousel-image">
-          <img src="assets\jpg\carousel-1.jpg" class="carousel-image" alt="Bhuj: The Pride of India">
+          <img src="assets\jpg\car-1.jpg" class="carousel-image" alt="Bhuj: The Pride of India">
         </div>
       </div>
       <!-- <div class="lang-available row">
@@ -163,8 +185,11 @@
             <span>Latest & Trending</span>
           </div>
           <div class="slider row">
-            <div class="card latest-trend col">
-              <div class="card-text">
+            <div class="card latest-trend col" data-index="0">
+              <div class="card-thumbnail">
+                <img src="assets\webp\latest-1.webp" class="thumb" alt="">
+              </div>
+              <div class="card-text txt-color-2">
                 <div class="card-title">Cruella</div>
                 <div class="card-meta">
                   2 hr 13 min, Crime, Comedy, English, Hindi, Tamil, Telugu, 2021
@@ -174,19 +199,135 @@
                 </div>
                 <div class="card-actions col">
                   <div class="c-watch-movie">
-                    <a href="">Watch Movie</a>
+                    <a href="" class="td-none txt-color-2 action-btn">Watch Movie</a>
                   </div>
                   <div class="c-add-to-watch">
-                    <a href="">Add to Watchlist</a>
+                    <a href="" class="td-none txt-color-2 action-btn">Add to Watchlist</a>
                   </div>
                 </div>
               </div>
 
+            </div>
+
+            <div class="card latest-trend col" data-index="1">
               <div class="card-thumbnail">
                 <img src="assets\webp\latest-1.webp" class="thumb" alt="">
               </div>
+              <div class="card-text txt-color-2">
+                <div class="card-title">Cruella</div>
+                <div class="card-meta">
+                  2 hr 13 min, Crime, Comedy, English, Hindi, Tamil, Telugu, 2021
+                </div>
+                <div class="card-description overflow-hidden">
+                  This film is about the rebellious early days of one of cinemas...
+                </div>
+                <div class="card-actions col">
+                  <div class="c-watch-movie">
+                    <a href="" class="td-none txt-color-2 action-btn">Watch Movie</a>
+                  </div>
+                  <div class="c-add-to-watch">
+                    <a href="" class="td-none txt-color-2 action-btn">Add to Watchlist</a>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
+            <div class="card latest-trend col" data-index="2">
+              <div class="card-thumbnail">
+                <img src="assets\webp\latest-1.webp" class="thumb" alt="">
+              </div>
+              <div class="card-text txt-color-2">
+                <div class="card-title">Cruella</div>
+                <div class="card-meta">
+                  2 hr 13 min, Crime, Comedy, English, Hindi, Tamil, Telugu, 2021
+                </div>
+                <div class="card-description overflow-hidden">
+                  This film is about the rebellious early days of one of cinemas...
+                </div>
+                <div class="card-actions col">
+                  <div class="c-watch-movie">
+                    <a href="" class="td-none txt-color-2 action-btn">Watch Movie</a>
+                  </div>
+                  <div class="c-add-to-watch">
+                    <a href="" class="td-none txt-color-2 action-btn">Add to Watchlist</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="card latest-trend col" data-index="3">
+              <div class="card-thumbnail">
+                <img src="assets\webp\latest-1.webp" class="thumb" alt="">
+              </div>
+              <div class="card-text txt-color-2">
+                <div class="card-title">Cruella</div>
+                <div class="card-meta">
+                  2 hr 13 min, Crime, Comedy, English, Hindi, Tamil, Telugu, 2021
+                </div>
+                <div class="card-description overflow-hidden">
+                  This film is about the rebellious early days of one of cinemas...
+                </div>
+                <div class="card-actions col">
+                  <div class="c-watch-movie">
+                    <a href="" class="td-none txt-color-2 action-btn">Watch Movie</a>
+                  </div>
+                  <div class="c-add-to-watch">
+                    <a href="" class="td-none txt-color-2 action-btn">Add to Watchlist</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="card latest-trend col" data-index="4">
+              <div class="card-thumbnail">
+                <img src="assets\webp\latest-1.webp" class="thumb" alt="">
+              </div>
+              <div class="card-text txt-color-2">
+                <div class="card-title">Cruella</div>
+                <div class="card-meta">
+                  2 hr 13 min, Crime, Comedy, English, Hindi, Tamil, Telugu, 2021
+                </div>
+                <div class="card-description overflow-hidden">
+                  This film is about the rebellious early days of one of cinemas...
+                </div>
+                <div class="card-actions col">
+                  <div class="c-watch-movie">
+                    <a href="" class="td-none txt-color-2 action-btn">Watch Movie</a>
+                  </div>
+                  <div class="c-add-to-watch">
+                    <a href="" class="td-none txt-color-2 action-btn">Add to Watchlist</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="card latest-trend col" data-index="5">
+              <div class="card-thumbnail">
+                <img src="assets\webp\latest-1.webp" class="thumb" alt="">
+              </div>
+              <div class="card-text txt-color-2">
+                <div class="card-title">Cruella</div>
+                <div class="card-meta">
+                  2 hr 13 min, Crime, Comedy, English, Hindi, Tamil, Telugu, 2021
+                </div>
+                <div class="card-description overflow-hidden">
+                  This film is about the rebellious early days of one of cinemas...
+                </div>
+                <div class="card-actions col">
+                  <div class="c-watch-movie">
+                    <a href="" class="td-none txt-color-2 action-btn">Watch Movie</a>
+                  </div>
+                  <div class="c-add-to-watch">
+                    <a href="" class="td-none txt-color-2 action-btn">Add to Watchlist</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
           </div>
 
         </div>
@@ -227,6 +368,7 @@
       </div>
     </div>
   </div>
+  <script src="assets\js\app.js"></script>
 </body>
 
 </html>
