@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="WBDBumG96n9q-Qm2EJxw" name="Page-1">
-        <mxGraphModel dx="6597" dy="4340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2105" dy="1617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -70,7 +70,7 @@
                 <mxCell id="124" value="Name of the show/Movie" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="-429" y="-230" width="180" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="125" value="Chennel / Language / genre" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                <mxCell id="125" value="Channel / Language / genre" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="-429" y="-180" width="260" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="126" value="Description" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" parent="1" vertex="1">
@@ -425,10 +425,10 @@
                     <mxGeometry x="481" y="2460" width="130" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="265" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Requirements&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="361" y="-1028" width="500" height="50" as="geometry"/>
+                    <mxGeometry x="326" y="-1028" width="500" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="266" value="&lt;font style=&quot;font-size: 24px&quot;&gt;* Display latest/trending shows and movies/TV&lt;br&gt;* Catalogue for shows/movies/tv (slider/carousel type)&lt;br&gt;* Watch Live TV&lt;br&gt;* Multiple Languages and genres&lt;br&gt;* Subscription&lt;br&gt;* Search&amp;nbsp;&lt;br&gt;* Login/Signup&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-                    <mxGeometry x="361" y="-978" width="500" height="320" as="geometry"/>
+                    <mxGeometry x="326" y="-978" width="500" height="320" as="geometry"/>
                 </mxCell>
                 <mxCell id="267" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="950" y="-980" width="680" height="730" as="geometry"/>
